@@ -28,7 +28,7 @@ void	fillit(t_fillit *table, int table_size)
 		if (!(board = allocate_board(++board_size)))
 		{
 			ft_putstr("error\n");
-			return;
+			return ;
 		}
 	}
 	print_board(board, board_size);
